@@ -16,3 +16,4 @@ COPY . .
 
 ENTRYPOINT ["python", "cli.py"]
 CMD ["run", "--batch-size", "100"]
+

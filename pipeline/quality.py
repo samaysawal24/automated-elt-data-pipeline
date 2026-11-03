@@ -1,6 +1,6 @@
 """
 Data Quality Auditing & Assertion Suite
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 from typing import List
@@ -63,3 +63,4 @@ class DataQualityAuditor:
         )
 
         return checks
+

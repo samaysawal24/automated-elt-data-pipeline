@@ -4,7 +4,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.11%2B-brightgreen.svg)](https://python.org)
 [![Architecture](https://img.shields.io/badge/Architecture-Medallion_%28Bronze%2FSilver%2FGold%29-F59E0B.svg)](#)
 [![Data Quality](https://img.shields.io/badge/Data_Quality-Automated_dbt_style_Gates-10B981.svg)](#)
-[![Author](https://img.shields.io/badge/Author-smay-orange.svg)](https://github.com/samaysawal24)
+[![Author](https://img.shields.io/badge/Author-Samay_Sawal-orange.svg)](https://github.com/samaysawal24)
 
 An enterprise-grade columnar ELT data pipeline architecture implementing the Medallion Data Design pattern (Bronze Ingestion -> Silver Cleaning & Normalization -> Gold Aggregation Marts). Features integrated automated data quality assertions (uniqueness, null checks, business logic invariants) and instant KPI reporting.
 
@@ -126,3 +126,4 @@ pytest tests/ -v
 - **Author:** smay ([@samaysawal24](https://github.com/samaysawal24))
 - **Email:** cricketworldsamay@gmail.com
 - **License:** Released under the [MIT License](LICENSE).
+

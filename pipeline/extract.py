@@ -1,6 +1,6 @@
 """
 Bronze Layer: Raw Ingestion and Schema Extraction
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import uuid
@@ -37,3 +37,4 @@ class RawDataExtractor:
                 )
             )
         return events
+

@@ -1,6 +1,6 @@
 """
 Data models and schemas for Modern ELT Data Pipeline
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 from typing import List, Dict, Any, Optional
@@ -44,3 +44,4 @@ class PipelineRunSummary(BaseModel):
     all_quality_checks_passed: bool
     execution_time_seconds: float
     completed_at: datetime = Field(default_factory=datetime.utcnow)
+

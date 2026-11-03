@@ -1,6 +1,6 @@
 """
 Automated ELT Data Pipeline Package
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 from .runner import ELTPipelineRunner
@@ -19,3 +19,4 @@ __all__ = [
     "QualityCheckResult",
     "PipelineRunSummary"
 ]
+

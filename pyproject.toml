@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Modern Columnar Data Pipeline with Medallion Architecture, SQL Transformations, and Automated Data Quality Auditing"
 readme = "README.md"
 authors = [
-  { name = "smay", email = "cricketworldsamay@gmail.com" }
+  { name = "Samay Sawal", email = "cricketworldsamay@gmail.com" }
 ]
 license = { text = "MIT" }
 dependencies = [
@@ -20,3 +20,4 @@ dependencies = [
 dev = [
     "pytest>=8.0.0"
 ]
+

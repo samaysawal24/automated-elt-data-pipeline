@@ -1,6 +1,6 @@
 """
 Silver & Gold Medallion SQL Transformation Layer
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 from typing import List, Dict, Any
@@ -51,3 +51,4 @@ class DataTransformer:
             "conversion_rate_percent": round((len(purchases) / max(1, len(silver_rows))) * 100, 2),
             "revenue_by_country": revenue_by_country,
         }
+

@@ -1,6 +1,6 @@
 """
 Unit tests for Automated ELT Data Pipeline
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import pytest
@@ -66,3 +66,4 @@ def test_end_to_end_pipeline_runner():
     assert summary.silver_rows_transformed == 25
     assert summary.all_quality_checks_passed is True
     assert summary.gold_metrics["total_revenue_usd"] >= 0.0
+

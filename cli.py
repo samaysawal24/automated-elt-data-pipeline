@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 CLI entry point for Automated ELT Data Pipeline
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import sys
@@ -45,3 +45,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

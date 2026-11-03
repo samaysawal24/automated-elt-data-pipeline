@@ -1,6 +1,6 @@
 """
 Pipeline Orchestrator Runner
-Author: smay <cricketworldsamay@gmail.com>
+Author: Samay Sawal <cricketworldsamay@gmail.com>
 """
 
 import time
@@ -45,3 +45,4 @@ class ELTPipelineRunner:
             all_quality_checks_passed=all_passed,
             execution_time_seconds=round(elapsed, 3)
         )
+
