@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  elt-pipeline:
+    build: .
+    container_name: automated-elt-pipeline
+    command: ["run", "--batch-size", "250"]
